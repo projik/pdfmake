@@ -1,9 +1,9 @@
 var fonts = {
 	Roboto: {
-		normal: 'fonts/Roboto-Regular.ttf',
-		bold: 'fonts/Roboto-Medium.ttf',
-		italics: 'fonts/Roboto-Italic.ttf',
-		bolditalics: 'fonts/Roboto-MediumItalic.ttf'
+		normal: 'fonts/SegoeUI-Regular.ttf',
+		bold: 'fonts/SegoeUI-Bold.ttf',
+		italics: 'fonts/SegoeUI-Italic.ttf',
+		bolditalics: 'fonts/SegoeUI-BoldItalic.ttf'
 	}
 };
 
@@ -14,7 +14,9 @@ var fs = require('fs');
 var docDefinition = {
 	content: [
 		'First paragraph',
-		'Another paragraph, this time a little bit longer to make sure, this line will be divided into at least two lines'
+		'Another paragraph, (this time a little bit longer) to make sure, this line will be divided into at least two lines',
+		'And another. This time it features some special characters ! @ # $ % ^ & * ( ) { } [ ] - + / ?',
+		' 1 2 3 4 5 6 7 8 9 0'
 	]
 };
 
